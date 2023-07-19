@@ -1,6 +1,6 @@
 # sostavChisla
+## Тестовое задание 
 
-/**
 * Написать функцию sostavChisla(massivChisel: number[], chislo: number), 
   которая бы находила все возможные комбинации чисел из massivChisel, 
   сумма которых равна chislo. При этом:
@@ -13,7 +13,9 @@
   @param massivChisel: number[]
   @param chislo: number[]
   @return Array<Array<number>>
-*/
+
+
+
 function sostavChisla(massivChisel, chislo) {
 	// код писать только внутри данной функции
 	return [[1, 2], [3]];
@@ -34,7 +36,6 @@ function compareNumericArrays(arr1, arr2) {
       return false;
     }
   }
-  
   return true;
 }
 
